@@ -33,6 +33,19 @@ http.createServer(function(req, res) {
 }).listen(1337);
 ```
 
+## Supported Media Types
+
+* `HypermediaType.ATOM` => application/atom+xml
+* `HypermediaType.COLLECTION` => application/vnd.collection+json
+* `HypermediaType.HAL` => application/hal+json
+* `HypermediaType.HAL_XML` => application/hal+xml
+* `HypermediaType.HTML` => text/html
+* `HypermediaType.JSON_LD` => application/ld+json
+* `HypermediaType.SIREN` => application/vnd.siren+json
+* `HypermediaType.XHTML` => application/xhtml+xml
+
+
+
 ## License
 
 MIT
