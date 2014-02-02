@@ -1,20 +1,20 @@
-# hypermedia-types
+# hypermedia-type
 
 A Node.js module for finding IANA registered names for common hypermedia types.
 
 ## Install
 
-`$ npm install hypermedia-types`
+`$ npm install hypermedia-type`
 
 ## Usage
 
 ```javascript
 var http = require('http');
-var HypermediaTypes = require('hypermedia-types');
+var HypermediaType = require('hypermedia-type');
 
 http.createServer(function(req, res) {
   res.statusCode = 200;
-  res.setHeader('Content-Type', HypermediaTypes.SIREN);
+  res.setHeader('Content-Type', HypermediaType.SIREN);
 
   var entity = {
     class: [ 'order' ],

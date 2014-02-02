@@ -1,9 +1,9 @@
 var http = require('http');
-var HypermediaTypes = require('./');
+var HypermediaType = require('./');
 
 http.createServer(function(req, res) {
   res.statusCode = 200;
-  res.setHeader('Content-Type', HypermediaTypes.SIREN);
+  res.setHeader('Content-Type', HypermediaType.SIREN);
 
   var entity = {
     class: [ 'order' ],
