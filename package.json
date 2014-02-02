@@ -1,6 +1,6 @@
 {
   "name": "hypermedia-type",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Node.js module exporting a map of common hypermedia names to registered IANA media type names.",
   "main": "hypermedia_type.js",
   "scripts": {
